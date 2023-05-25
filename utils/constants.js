@@ -14,15 +14,15 @@ const cardSelectors = {
 
 const todoListInfo = [
   {
-    title: 'Погладить Персика',
-    time: '19:15',
+    title: 'Сходить на тренировку',
+    time: '17:30',
   },
   {
-    title: 'Провести трансялцию',
+    title: 'Покушать',
     time: '20:30',
   },
   {
-    title: 'Почистить зубы',
+    title: 'Начать делать дз',
     time: '22:30',
   },
 ]

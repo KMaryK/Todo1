@@ -9,3 +9,32 @@ export const getData = () => {
         console.log(error)
     })
 }
+// загрузка данных с  сервера
+buttonDownloadCards.addEventListener("click", 
+    (event) => {
+        getData()
+        .then((data) => {
+
+            data.info.forEach(info => {
+                const cardTemplate = document.querySelector(cardSelectors.template).content;
+                const card = cardTemplate.querySelector(cardSelectors.card).cloneNode(true)
+                card.querySelector(cardSelectors.title).value = info.title
+                card.querySelector(cardSelectors.deadline).value = info.time
+                cardsContainer.append(card)
+    
+                card.addEventListener("click",
+                    (event) => {
+                        if (event.target.className === "card__button") {
+                            card.remove()
+                        }
+                    }
+                
+                )
+            })   
+        })
+ 
+
+        
+    }
+)
+import { getData } from "./api/api.js"
