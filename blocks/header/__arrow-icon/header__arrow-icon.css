@@ -1,0 +1,8 @@
+.header__arrow-icon {
+  width: 6.75px;
+  height: 12px;
+
+  margin: 0 40px 0 8px;
+
+  object-fit: contain;
+}

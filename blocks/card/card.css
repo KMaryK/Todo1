@@ -1,0 +1,13 @@
+.card {
+  box-sizing: border-box;
+  width: 100%;
+
+  padding: 20px;
+
+  display: grid;
+  grid-template-columns: 3fr 1fr 1fr;
+  column-gap: 10px;
+
+  background-color: #515AB9;
+  border-radius: 12px;
+}

@@ -1,0 +1,8 @@
+.header__first-section {
+  width: 100%;
+  box-sizing: border-box;
+
+  padding: 10px 0 10px;
+
+  border-bottom: #F0F0F0 solid 1px;
+}

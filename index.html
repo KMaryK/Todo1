@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./pages/index.css">
+  <script type="module" defer src="./index.js"></script>
+  <title>TodoList</title>
+</head>
+
+<body class="root">
+  <main class="main root__main">
+    <section class="todoList main__todoList" aria-label="Секция продукции">
+      <div class="todoList__container">
+        <h1 class="todoList__title">Todo List</h1>
+        <div class="todoList__buttons-container">
+          <button class="todoList__button" title="Добавить задачу">+</button>
+          <button class="todoList__download-button" title="Загрузить данные">
+            <img class="todoList__download-img" src="./images/download.png" />
+          </button>
+        </div>
+      </div>
+      <ul class="todoList__cards">
+       
+      </ul>
+    </section>
+  </main>
+
+  <!-- Template -->
+  <template id="card-template">
+    <li class="card">
+      <input type="text" class="card__title" />
+      <input type="time" class="card__deadline" />
+      <button id="delete-button" class="card__button">Выполнено</button>
+    </li>
+  </template>
+</body>
+
+</html>

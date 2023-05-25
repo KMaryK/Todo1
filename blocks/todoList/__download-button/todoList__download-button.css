@@ -1,0 +1,15 @@
+.todoList__download-button {
+  box-sizing: border-box;
+  padding: 7px 35px;
+  border: none;
+  background-color: #515AB9;
+  border-radius: 6px;
+
+  transition: all 0.2s ease-in;
+}
+
+.todoList__download-button:hover {
+  cursor: pointer;
+
+  opacity: 0.6;
+}

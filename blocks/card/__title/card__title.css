@@ -1,0 +1,13 @@
+.card__title {
+  margin: 0;
+  padding: 6px;
+
+  font-weight: 400;
+  font-size: 18px;
+
+  background: transparent;
+  border: 3px solid white;
+  border-radius: 6px;
+
+  color: white;
+}

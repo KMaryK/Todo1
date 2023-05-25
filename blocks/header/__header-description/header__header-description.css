@@ -1,0 +1,11 @@
+.header__header-description {
+  width: 100%;
+  box-sizing: border-box;
+
+  padding: 0 195px 0;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+}

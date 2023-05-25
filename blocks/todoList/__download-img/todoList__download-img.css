@@ -1,0 +1,10 @@
+.todoList__download-img {
+  margin: 0;
+
+  background-position: center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+
+  width: 15px;
+  height: 15px;
+}

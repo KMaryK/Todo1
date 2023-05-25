@@ -1,0 +1,22 @@
+.todoList__button {
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 22px;
+
+  box-sizing: border-box;
+  padding: 5px 35px 5px;
+
+  color: white;
+  background-color: #515AB9;
+  border: none;
+  border-radius: 6px;
+
+  transition: 0.2s ease-in;
+}
+
+.todoList__button:hover {
+  cursor: pointer;
+  color: #515AB9;
+  background-color: white;
+  border: 1px solid #515AB9;
+}

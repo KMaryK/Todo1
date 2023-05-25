@@ -1,0 +1,5 @@
+.card__button_state_active {
+  color: #FF7010;
+  background-color: white;
+  border: 1px solid #FF7010;
+}

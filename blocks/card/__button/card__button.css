@@ -1,0 +1,23 @@
+.card__button {
+  box-sizing: border-box;
+
+  color: #515AB9;
+
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+
+  padding: 13px 32px;
+
+  border: none;
+  border-radius: 6px;
+
+  background-color: white;
+
+  transition: all 0.2s ease-in;
+}
+
+.card__button:hover {
+  cursor: pointer;
+  opacity: 0.6;
+}
